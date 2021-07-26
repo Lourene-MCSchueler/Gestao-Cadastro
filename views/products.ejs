@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cliente</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='/stylesheets/products.css' />
+</head>
+
+<body>
+
+  <header>
+    <a href="/"><img src="/images/icon.png" alt=""></a>
+  </header>
+
+  <h1>CADASTRO PRODUTO</h1>
+
+  <section>
+    <form class="form-product">
+
+      <label for="ervas">Categoria: ERVAS</label><br>
+      <select name="ervas" id="ervas">
+        <option>Selecione</option>
+        <option value="camomila">Camomila</option>
+        <option value="capim-cidreira">Capim-cidreira</option>
+        <option value="erva-doce">Erva-doce</option>
+        <option value="hortelã">Hortelã</option>
+        <option value="boldo">Boldo</option>
+      </select><br>
+
+      <label for="premium">Categoria: PREMIUM</label><br>
+      <select name="premium" id="premium">
+        <option>Selecione</option>
+        <option value="maça-canela">Maçã & Canela</option>
+        <option value="morango">Morango</option>
+        <option value="gengibre-especiarias">Genbibre & Especiarias</option>
+        <option value="frutasVermelhas">Frutas vermelhas</option>
+        <option value="boldo">Boldo</option>
+      </select><br>
+
+      <label for="sense">Categoria: SENSE</label><br>
+      <select name="sense" id="sense">
+        <option>Selecione</option>
+        <option value="maracuja-laranja-genbibre">Maracujá-Laranja-Genbibre</option>
+        <option value="mate-hibisco-cereja">Mate-Hibisco-Cereja</option>
+        <option value="amora-mirtilo-baunilha">Amora-Mirtilo-Baunilha</option>
+        <option value="papaia-laranja-cenoura">Papaia-Laranja-Cenoura</option>
+      </select><br>
+
+      <label for="ref">Referência:</label><br>
+      <input type="text" name="ref" id="ref" required><br>
+
+      <label for="price">Preço sugerido para venda:</label><br>
+      <input type="text" name="price" id="price"><br>
+
+      <label for="quantity">Quantidade:</label><br>
+      <input type="number" name="quantity" id="quantity"><br>
+
+      <button type="submit" onClick="registerProduct()">Cadastrar</button>
+    </form>
+
+  </section>
+  <script src="/javascripts/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cliente</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='/stylesheets/clients.css' />
+</head>
+
+<body>
+
+  <header>
+    <a href="/"><img src="/images/icon.png" alt=""></a>
+  </header>
+
+  <h1>CADASTRO CLIENTE</h1>
+
+  <section>
+
+    <form class="form-client">
+      <label for="name">Nome:</label><br>
+      <input type="text" name="name" id="name" required placeholder="Nome completo"><br>
+
+      <label for="cpf">CPF:</label><br>
+      <input type="text" name="cpf" id="cpf" required><br>
+
+      <label for="address">Endereço:</label><br>
+      <input type="text" name="address" id="address" placeholder="Rua e número"><br>
+
+      <label for="details">Complemento:</label><br>
+      <input type="text" name="details" id="details"><br>
+
+      <label for="cep">CEP:</label><br>
+      <input type="text" name="cep" id="cep" placeholder="Somente números"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="text" name="email" id="email" required><br>
+
+      <label for="phone">Telefone:</label><br>
+      <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx"><br>
+
+      <button type="submit" onClick="registerClient()">Cadastrar</button>
+    </form>
+
+  </section>
+
+  <script src="/javascripts/scripts.js"></script>
+</body>
+
+</html>
