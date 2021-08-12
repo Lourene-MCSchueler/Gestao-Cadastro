@@ -15,7 +15,7 @@ Obs: Os dados estão sendo salvos no localStorage.
 ## Instalação
 
 Clonar o repositório na máquina local.
-Acessar a pasta landing-page e instalar o pacote npm.
+Acessar a pasta e instalar o pacote npm.
 
 $ npm install
 
